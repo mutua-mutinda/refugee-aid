@@ -5,14 +5,24 @@ import "./RefugeeInfo.css";
 function RefugeesInfo({ fName, lName, age, gender, nation }) {
   return (
     <div className="info">
+      <img src={aid} alt="" />
       <div className="refugee__info">
-        <img src={aid} alt="" />
         <div className="info__details">
-          <p>First Name: {fName}</p>
-          <p>Last Name: {lName}</p>
-          <p>Age: {age} years</p>
-          <p>Gender: {gender}</p>
-          <span>Nationality: {nation}</span>
+          <p>
+            First Name: <span>{fName}</span>{" "}
+          </p>
+          <p>
+            Last Name: <span>{lName}</span>
+          </p>
+          <p>
+            Age: <span>{age}</span> years
+          </p>
+          <p>
+            Gender: <span>{gender}</span>
+          </p>
+          <p>
+            Nationality: <span>{nation}</span>
+          </p>
         </div>
       </div>
     </div>

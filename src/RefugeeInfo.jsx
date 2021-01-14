@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./RefugeeInfo.css";
+// import "./RefugeeInfo.css";
 import { db } from "./firebase";
 import RefugeesInfo from "./RefugeesInfo";
 
@@ -18,7 +18,7 @@ function RefugeeInfo() {
         });
       }
     });
-  });
+  }, [data.length]);
 
   return (
     <div className="info">
@@ -27,6 +27,7 @@ function RefugeeInfo() {
           {data.map((val, i) => {
             return (
               <RefugeesInfo
+                key={i}
                 image={val.regugeeimg}
                 fName={val.firstName}
                 lName={val.lastName}
