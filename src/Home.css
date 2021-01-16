@@ -1,0 +1,30 @@
+.home {
+  display: flex;
+  margin: 2% 20% 20%;
+}
+
+.home__content {
+  position: relative;
+}
+
+.home__content > p {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.mySlides {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  margin-top: -40px;
+  margin-bottom: 40px;
+  z-index: -1;
+}
+
+.home__slides > p {
+  margin-top: 20px;
+  background: #fff;
+  width: 400px;
+  font-size: 30px;
+}
