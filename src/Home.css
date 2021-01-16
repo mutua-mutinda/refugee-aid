@@ -22,9 +22,10 @@
   z-index: -1;
 }
 
-.home__slides > p {
+.home__slidesp {
   margin-top: 20px;
   background: #fff;
   width: 400px;
   font-size: 30px;
+  font-weight: 450;
 }

@@ -20,6 +20,10 @@ function App() {
             <RefugeeInfo />
           </Route>
 
+          <Route path="/refugeehse">
+            <RefugeeInfo />
+          </Route>
+
           <Route path="/">
             <Header />
             <Home />
