@@ -67,9 +67,9 @@ function Register() {
             onChange={(e) => setGender(e.target.value)}
             required
           >
-            <option></option>
-            <option>Male</option>
-            <option>Female</option>
+            <option value="">--select--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
           </select>
 
           <label>NATIONALITY</label>

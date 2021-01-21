@@ -45,3 +45,20 @@
   height: 55px;
   border: 1px solid #8628ec;
 }
+
+@media (max-width: 540px) {
+  .header {
+    width: 500px;
+  }
+
+  .header > h3 {
+    font-size: 20px;
+  }
+
+  .header__registerbtn {
+    margin-left: -200px;
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+  }
+}
