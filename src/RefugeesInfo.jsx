@@ -1,5 +1,5 @@
 import React from "react";
-import aid from "./r-aid.jpg";
+import aid from "./help.png";
 import "./RefugeeInfo.css";
 
 function RefugeesInfo({ fName, lName, age, gender, nation }) {

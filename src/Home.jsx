@@ -1,6 +1,5 @@
 import React from "react";
 import hses from "./r-hse.jpg";
-import train from "./train-r.jpg";
 import edu from "./edu-r.jpg";
 import educ from "./educ-r.jpg";
 import "./Home.css";

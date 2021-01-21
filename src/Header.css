@@ -30,17 +30,18 @@
   font-size: 18px;
   font-weight: 400;
   border-radius: 3px;
-  border: 2px solid rgb(188, 131, 248);
+  border: 2px solid #bc83f8;
   background: #431221;
   color: #fff;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .header__registerbtn:hover {
   transition: 0.3s;
   color: #fff;
-  background: rgb(134, 37, 224);
+  background: #8628ec;
   width: 305px;
   height: 55px;
-  border: 1px solid rgb(134, 40, 236);
+  border: 1px solid #8628ec;
 }

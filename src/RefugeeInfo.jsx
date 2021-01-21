@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import "./RefugeeInfo.css";
 import { db } from "./firebase";
 import RefugeesInfo from "./RefugeesInfo";
 

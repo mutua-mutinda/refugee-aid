@@ -1,7 +1,31 @@
+.refugees__button {
+  justify-content: center;
+  place-items: center;
+  width: 300px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 1%;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 3px;
+  border: 2px solid #fff;
+  background: #431221;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.refugees__button:hover {
+  transition: 0.3s;
+  color: #fff;
+  background: #8628ec;
+  width: 305px;
+  height: 55px;
+  border: 1px solid #8628ec;
+}
 .register {
   display: flex;
   flex-direction: column;
-  margin-top: 2%;
+  margin-top: -5%;
   margin-left: 40%;
   height: fit-content;
   width: 24%;

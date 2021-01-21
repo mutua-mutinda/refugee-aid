@@ -4,6 +4,7 @@ import Header from "./Header";
 import Home from "./Home";
 import RefugeeInfo from "./RefugeeInfo";
 import Register from "./Register";
+import ShelterAlloc from "./ShelterAlloc";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
           </Route>
 
           <Route path="/refugeehse">
-            <RefugeeInfo />
+            <Header />
+            <ShelterAlloc />
           </Route>
 
           <Route path="/">
