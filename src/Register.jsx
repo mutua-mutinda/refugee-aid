@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { db } from "./firebase";
 import "./Register.css";
+import "./Header.css";
 
 function Register() {
   const history = useHistory();

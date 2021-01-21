@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { db } from "./firebase";
 import RefugeesInfo from "./RefugeesInfo";
+import "./Header.css";
 
 function RefugeeInfo() {
   const [data, setData] = useState([]);

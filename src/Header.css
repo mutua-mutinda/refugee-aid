@@ -55,7 +55,8 @@
     font-size: 20px;
   }
 
-  .header__registerbtn {
+  .header__registerbtn,
+  .header__registerbtn:hover {
     margin-left: -130px;
     width: 100px;
     height: 40px;

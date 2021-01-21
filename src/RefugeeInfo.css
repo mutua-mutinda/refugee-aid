@@ -35,3 +35,10 @@
   font-size: 20px;
   color: #8628ec;
 }
+
+@media (max-width: 540px) {
+  .info__details > p,
+  .info__details > p > span {
+    font-size: 12px;
+  }
+}
