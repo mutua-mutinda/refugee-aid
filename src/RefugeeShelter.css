@@ -1,18 +1,18 @@
-.refugeeinfo {
+.refugeeshelter {
   display: flex;
   margin-top: 50px;
   margin-bottom: 40px;
   margin-left: 20%;
   background-color: rgb(234, 237, 237);
 }
-.refugeeinfo > img {
+.refugeeshelter > img {
   height: auto;
   width: auto;
   background: #fff;
   border-radius: 4px;
   z-index: 1;
 }
-.refugeeinfo__details {
+.refugeeshelter__info {
   display: flex;
   flex-direction: column;
   background: #fff;
@@ -20,7 +20,7 @@
   border-radius: 4px;
 }
 
-.refugeeinfo__details > p {
+.refugeeshelter__info > p {
   margin-right: 100px;
   margin-left: 100px;
   margin-bottom: 10px;
@@ -31,18 +31,19 @@
   color: rgb(95, 90, 90);
 }
 
-.refugeeinfo__details > p > span {
+.refugeeshelter__info > p > span {
   font-size: 20px;
   color: #8628ec;
 }
 
 @media (max-width: 540px) {
-  .refugeeinfo {
-    justify-content: center;
-    align-items: center;
+  .refugeeshelter {
+    margin-left: 50%;
+    /* justify-content: center;
+    align-items: center; */
   }
-  .refugeeinfo__details > p,
-  .refugeeinfo__details > p > span {
+  .refugeeshelter__info > p,
+  .refugeeshelter__info > p > span {
     font-size: 12px;
   }
 }

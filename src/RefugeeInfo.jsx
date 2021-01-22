@@ -22,22 +22,20 @@ function RefugeeInfo() {
 
   return (
     <div className="info">
-      <div className="refugee__info">
-        <div className="info__details">
-          {data.map((val, i) => {
-            return (
-              <RefugeesInfo
-                key={i}
-                image={val.regugeeimg}
-                fName={val.firstName}
-                lName={val.lastName}
-                gender={val.gender}
-                nation={val.nationality}
-                age={val.refugeeAge}
-              />
-            );
-          })}
-        </div>
+      <div className="info__details">
+        {data.map((val, i) => {
+          return (
+            <RefugeesInfo
+              key={i}
+              image={val.regugeeimg}
+              fName={val.firstName}
+              lName={val.lastName}
+              gender={val.gender}
+              nation={val.nationality}
+              age={val.refugeeAge}
+            />
+          );
+        })}
       </div>
     </div>
   );
