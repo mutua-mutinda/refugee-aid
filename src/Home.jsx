@@ -12,7 +12,18 @@ function Home() {
         <div className="home__content">
           <p>
             Refugees Aid aims to provide refugees fleeing their country because
-            of war with shelter, food and health care.
+            of war with{" "}
+            <Link to="/refugeehse" style={{ fontWeight: "500" }}>
+              Shelter,
+            </Link>{" "}
+            <Link to="/food-dist" style={{ fontWeight: "500" }}>
+              Food
+            </Link>{" "}
+            and{" "}
+            <Link to="/refugeehealth" style={{ fontWeight: "500" }}>
+              Health Care
+            </Link>
+            .
           </p>
         </div>
         <Link to="/refugeehse" style={{ textDecoration: "none" }}>

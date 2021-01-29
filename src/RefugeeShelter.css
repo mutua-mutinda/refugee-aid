@@ -39,8 +39,6 @@
 @media (max-width: 540px) {
   .refugeeshelter {
     margin-left: 50%;
-    /* justify-content: center;
-    align-items: center; */
   }
   .refugeeshelter__info > p,
   .refugeeshelter__info > p > span {

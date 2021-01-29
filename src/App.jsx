@@ -1,8 +1,11 @@
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import "./App.css";
+import FedRefugees from "./FedRefugees";
+import FoodDist from "./FoodDist";
 import Header from "./Header";
 import Home from "./Home";
 import RefugeeInfo from "./RefugeeInfo";
+import RefugeesFed from "./RefugeesFed";
 import Register from "./Register";
 import Shelter from "./Shelter";
 import ShelterAlloc from "./ShelterAlloc";
@@ -30,6 +33,20 @@ function App() {
           <Route path="/refugeeshelter">
             <Header />
             <Shelter />
+          </Route>
+
+          <Route path="/fedrefugees">
+            <Header />
+            <RefugeesFed />
+          </Route>
+
+          <Route path="/food-dist">
+            <Header />
+            <FoodDist />
+          </Route>
+
+          <Route path="/refugeehealth">
+            <Header />
           </Route>
 
           <Route path="/">

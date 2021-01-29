@@ -9,10 +9,10 @@ function RefugeeShelter({ fName, RTent, RBeddings }) {
           FirstName: <span>{fName}</span>
         </p>
         <p>
-          Tents: <span>{RTent}</span>Tents
+          Tents: <span>{RTent} </span> Tents
         </p>
         <p>
-          Beddings: <span>{RBeddings} Pairs</span>
+          Beddings: <span>{RBeddings} </span> Pairs
         </p>
       </div>
     </div>
