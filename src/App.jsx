@@ -1,6 +1,5 @@
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import "./App.css";
-import FedRefugees from "./FedRefugees";
 import FoodDist from "./FoodDist";
 import Header from "./Header";
 import Home from "./Home";
@@ -35,7 +34,7 @@ function App() {
             <Shelter />
           </Route>
 
-          <Route path="/fedrefugees">
+          <Route path="/fed-refugees">
             <Header />
             <RefugeesFed />
           </Route>

@@ -41,7 +41,7 @@ function FoodDist() {
       water: water,
       created: new Date().toISOString(),
     });
-    history.push("/fedrefugees");
+    history.push("/fed-refugees");
   };
 
   const handleChange = (event) => {
@@ -52,7 +52,7 @@ function FoodDist() {
   return (
     <>
       <div className="refugees">
-        <Link to="/fedrefugees" style={{ textDecoration: "none" }}>
+        <Link to="/fed-refugees" style={{ textDecoration: "none" }}>
           <button className="refugees__button">Fed Refugees</button>
         </Link>
       </div>
