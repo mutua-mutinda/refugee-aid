@@ -21,8 +21,16 @@
   font-size: 20px;
   font-weight: 500;
 }
+.footer__slogan {
+  margin-left: 30%;
+}
+
+.footer__slogan > p {
+  font-size: 25px;
+  font-weight: 400;
+}
 .footer__info {
-  margin-left: 70%;
+  margin-left: 30%;
 }
 
 .footer__info > p {
@@ -31,5 +39,36 @@
 }
 
 .footer__info > img {
+  width: 170px;
   height: 120px;
+}
+
+@media (max-width: 540px) {
+  .footer {
+    width: 500px;
+  }
+
+  .footer__name > p {
+    font-size: 10px;
+  }
+
+  .footer__slogan {
+    margin-left: 10%;
+  }
+
+  .footer__slogan > p {
+    font-size: 10px;
+  }
+
+  .footer__info {
+    margin-left: 10%;
+  }
+
+  .footer__info > p {
+    font-size: 10px;
+  }
+  .footer__info > img {
+    width: 90px;
+    height: 90px;
+  }
 }
