@@ -11,7 +11,7 @@ function Home() {
       <div className="home__slides">
         <div className="home__content">
           <p>
-            Refugees Aid aims to provide refugees fleeing their country because
+            Refugee Aid aims to provide refugees fleeing their country because
             of war with{" "}
             <Link to="/refugeehse" style={{ fontWeight: "500" }}>
               Shelter,
