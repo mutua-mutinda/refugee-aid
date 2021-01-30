@@ -51,3 +51,9 @@
   font-weight: 300;
   width: fit-content;
 }
+
+@media (max-width: 540px) {
+  .health__form {
+    width: max-content;
+  }
+}

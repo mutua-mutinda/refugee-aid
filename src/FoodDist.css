@@ -46,3 +46,20 @@
   font-weight: 300;
   width: 20%;
 }
+
+@media (max-width: 540px) {
+  .foodist__allocation {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+  }
+  .foodist__form > form > input,
+  .foodistform {
+    margin-top: 10px;
+    border: 1px solid rgb(102, 99, 99);
+  }
+  .foodist__form > form > button {
+    width: max-content;
+  }
+}
