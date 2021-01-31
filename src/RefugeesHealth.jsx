@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./RefugeesHealth.css";
-import { useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import { db } from "./firebase";
 
 function RefugeesHealth() {
@@ -46,46 +46,53 @@ function RefugeesHealth() {
   };
 
   return (
-    <div className="health">
-      <div className="health__form">
-        <h2>Health Track</h2>
-        <form onChange={handleChange} onSubmit={handleSubmit}>
-          <label>Refugees Name</label>
-          <select
-            className="healthform"
-            value={fName}
-            onChange={(e) => setFName(e.target.value)}
-            required
-          >
-            <option value="">--select--</option>
-            {data.map((val, i) => {
-              return <option>{val.firstName}</option>;
-            })}
-          </select>
-
-          <label>Refugee Diagnosis</label>
-          <textarea
-            type="text"
-            value={Diagnosis}
-            onChange={(e) => setDiagnosis(e.target.value)}
-            required
-          />
-
-          <label>Doctors Prescription</label>
-          <textarea
-            type="text"
-            value={Prescription}
-            onChange={(e) => setPrescription(e.target.value)}
-            required
-          />
-
-          <button disabled={saving || disabled}>
-            <span>{saving ? saving : "Save Info"}</span>
-          </button>
-          {error && <div>{error}</div>}
-        </form>
+    <>
+      <div className="refugees">
+        <Link to="/refugeeshealth" style={{ textDecoration: "none" }}>
+          <button className="refugees__button">Health Track</button>
+        </Link>
       </div>
-    </div>
+      <div className="health">
+        <div className="health__form">
+          <h2>Health Track</h2>
+          <form onChange={handleChange} onSubmit={handleSubmit}>
+            <label>Refugees Name</label>
+            <select
+              className="healthform"
+              value={fName}
+              onChange={(e) => setFName(e.target.value)}
+              required
+            >
+              <option value="">--select--</option>
+              {data.map((val, i) => {
+                return <option>{val.firstName}</option>;
+              })}
+            </select>
+
+            <label>Refugee Diagnosis</label>
+            <textarea
+              type="text"
+              value={Diagnosis}
+              onChange={(e) => setDiagnosis(e.target.value)}
+              required
+            />
+
+            <label>Doctors Prescription</label>
+            <textarea
+              type="text"
+              value={Prescription}
+              onChange={(e) => setPrescription(e.target.value)}
+              required
+            />
+
+            <button disabled={saving || disabled}>
+              <span>{saving ? saving : "Save Info"}</span>
+            </button>
+            {error && <div>{error}</div>}
+          </form>
+        </div>
+      </div>
+    </>
   );
 }
 

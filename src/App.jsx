@@ -3,6 +3,7 @@ import "./App.css";
 import FoodDist from "./FoodDist";
 import Footer from "./Footer";
 import Header from "./Header";
+import HealthTrack from "./HealthTrack";
 import Home from "./Home";
 import RefugeeInfo from "./RefugeeInfo";
 import RefugeesFed from "./RefugeesFed";
@@ -49,6 +50,11 @@ function App() {
           <Route path="/refugeehealth">
             <Header />
             <RefugeesHealth />
+          </Route>
+
+          <Route path="/refugeeshealth">
+            <Header />
+            <HealthTrack />
           </Route>
 
           <Route path="/">
