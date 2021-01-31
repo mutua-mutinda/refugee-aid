@@ -9,7 +9,8 @@
 
 .home__content > p {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 500;
+  color: rgb(102, 99, 99);
 }
 
 .mySlides {
@@ -24,6 +25,15 @@
 }
 
 .home__slidesp {
+  margin-top: 20px;
+  background: rgb(234, 237, 237);
+  width: 400px;
+  font-size: 30px;
+  font-weight: 450;
+  color: rgb(102, 99, 99);
+}
+
+.home__slidespt {
   margin-top: 20px;
   background: rgb(234, 237, 237);
   width: 400px;

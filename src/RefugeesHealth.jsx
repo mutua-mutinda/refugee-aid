@@ -59,7 +59,7 @@ function RefugeesHealth() {
           >
             <option value="">--select--</option>
             {data.map((val, i) => {
-              return <option value="">{val.firstName}</option>;
+              return <option>{val.firstName}</option>;
             })}
           </select>
 

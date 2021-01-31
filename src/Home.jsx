@@ -27,7 +27,7 @@ function Home() {
           </p>
         </div>
         <Link to="/refugeehse" style={{ textDecoration: "none" }}>
-          <p className="home__slidesp">Refugee House Settlement</p>
+          <p className="home__slidespt">Refugee House Settlement</p>
         </Link>
         <img src={hses} alt="" className="mySlides" />
         <p className="home__slidesp">Refugee Education</p>
