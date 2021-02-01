@@ -50,7 +50,8 @@
     width: 100%;
   }
 
-  .home__slidesp {
+  .home__slidesp,
+  .home__slidespt {
     margin-bottom: 30px;
     width: 130px;
     font-size: 10px;
