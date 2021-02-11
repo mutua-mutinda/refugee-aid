@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import HealthTrack from "./HealthTrack";
 import Home from "./Home";
+import RefugeeEduc from "./RefugeeEduc";
 import RefugeeInfo from "./RefugeeInfo";
 import RefugeesFed from "./RefugeesFed";
 import RefugeesHealth from "./RefugeesHealth";
@@ -59,6 +60,11 @@ function App() {
           </Route>
 
           <Route path="/students-details">
+            <Header />
+            <RefugeeEduc />
+          </Route>
+
+          <Route path="/studentinfo">
             <Header />
             <Students />
           </Route>

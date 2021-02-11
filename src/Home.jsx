@@ -31,7 +31,7 @@ function Home() {
         </Link>
         <img src={hses} alt="" className="mySlides" />
         <Link to="/students-details" style={{ textDecoration: "none" }}>
-          <p className="home__slidesp">Refugee Education</p>
+          <p className="home__slidespt">Refugee Education</p>
         </Link>
         <img src={edu} alt="" className="mySlides" />
         <p className="home__slidesp">Happy Minds</p>

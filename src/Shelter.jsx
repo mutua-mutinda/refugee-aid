@@ -19,7 +19,6 @@ function Shelter() {
       }
     });
   }, [data.length]);
-  console.log(data);
   return (
     <div className="shelter">
       {data.map((val, i) => {
