@@ -62,6 +62,7 @@
 
 .register > form > button {
   height: 30px;
+  max-width: max-content;
   font-size: 16px;
 }
 
