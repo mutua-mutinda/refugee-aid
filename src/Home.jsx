@@ -30,10 +30,12 @@ function Home() {
           <p className="home__slidespt">Refugee House Settlement</p>
         </Link>
         <img src={hses} alt="" className="mySlides" />
-        <p className="home__slidesp">Refugee Education</p>
+        <Link to="/students-details">
+          <p className="home__slidesp">Refugee Education</p>
+        </Link>
         <img src={edu} alt="" className="mySlides" />
         <p className="home__slidesp">Happy Minds</p>
-        <img src={educ} alt="" className="mySlides" />
+        <img src={educ} alt="" className="mySlides" onLoad />
       </div>
     </div>
   );

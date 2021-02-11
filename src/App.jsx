@@ -11,6 +11,7 @@ import RefugeesHealth from "./RefugeesHealth";
 import Register from "./Register";
 import Shelter from "./Shelter";
 import ShelterAlloc from "./ShelterAlloc";
+import Students from "./Students";
 
 function App() {
   return (
@@ -55,6 +56,11 @@ function App() {
           <Route path="/refugeeshealth">
             <Header />
             <HealthTrack />
+          </Route>
+
+          <Route path="/students-details">
+            <Header />
+            <Students />
           </Route>
 
           <Route path="/">

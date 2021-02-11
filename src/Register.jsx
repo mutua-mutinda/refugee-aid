@@ -15,7 +15,7 @@ function Register() {
   const [gender, setGender] = useState("");
   const [nation, setNation] = useState("");
   const [age, setAge] = useState("");
-  const [image, setImage] = useState("");
+  // const [image, setImage] = useState("");
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -27,7 +27,7 @@ function Register() {
       gender: gender,
       nationality: nation,
       refugeeAge: age,
-      refugeeimg: image,
+      // refugeeimg: image,
       created: new Date().toISOString(),
     });
     history.push("/refugeeinfo");
@@ -89,13 +89,13 @@ function Register() {
             required
           />
 
-          <label>IMAGE</label>
+          {/* <label>IMAGE</label>
           <input
             style={{ border: "#fff" }}
             type="file"
             value={image}
             onChange={(e) => setImage(e.target.value)}
-          />
+          /> */}
 
           <button disabled={saving || disabled}>
             <span>{saving ? <p>saving</p> : "Save Info"}</span>
