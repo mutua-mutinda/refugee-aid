@@ -30,7 +30,7 @@ function Home() {
           <p className="home__slidespt">Refugee House Settlement</p>
         </Link>
         <img src={hses} alt="" className="mySlides" />
-        <Link to="/students-details">
+        <Link to="/students-details" style={{ textDecoration: "none" }}>
           <p className="home__slidesp">Refugee Education</p>
         </Link>
         <img src={edu} alt="" className="mySlides" />
